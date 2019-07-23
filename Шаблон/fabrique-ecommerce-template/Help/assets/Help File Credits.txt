@@ -1,0 +1,8 @@
+ICONS: 	used within this Help file are ok for commercial use without attribution: 
+	http://www.tutorial9.net/downloads/nixus-icon-pack-60-beautiful-premium-icons-free/
+
+
+HELP FILE TEMPLATE:	The purchase of the template does NOT give you the right to edit or use in any way my Help File.
+
+
+TO TOP SCRIPT:	http://www.mattvarone.com/web-design/uitotop-jquery-plugin/

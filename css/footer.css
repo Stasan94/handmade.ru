@@ -1,0 +1,88 @@
+footer{
+	display: flex;
+	width: 70%;
+	/*height: 250px;*/
+	margin: 15px auto;
+	background: rgba(255, 255,255, 0.7);
+	align-items: center;
+}
+
+.footer_container{
+	display: flex;
+	flex-basis: 92%;
+	/*height: 165px;*/
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.information, .your_account,
+.contacts, .social{
+	display: flex;
+	flex-basis: 25%;
+	border-right: 1px dotted #6E6F6D;
+	flex-direction: column;
+	padding-left: 22px;
+	padding-right: 10px;
+}
+
+.social{
+	border-right: none;
+}
+
+.information h2, .your_account h2,
+.contacts h2, .social h2{
+	font: 1.7rem RalewayRegular;
+	color: #505050;
+	margin-bottom: 15px;
+}
+
+.information ul li, .your_account ul li{
+	list-style: none;
+	font: 1rem Arial;
+	color: #505050;
+}
+
+.information ul li:hover, .your_account ul li:hover{
+	text-decoration: underline;
+}
+
+.information ul li a, .your_account ul li a{
+	color: #505050;
+	line-height: 1.7;
+}
+
+.contacts p{
+	font: 1rem Arial;
+	color: #505050;
+	line-height: 1.6;
+	margin-bottom: 20px;
+}
+
+.contacts p:last-child{
+	margin-bottom: none;
+}
+
+/*@media screen and (max-width: 1296px){
+	.contacts p{
+	font: 0.9rem Arial;
+	line-height: 1.5;
+}
+
+.information ul li, .your_account ul li{
+	font: 1rem Arial;
+}
+
+.information ul li a, .your_account ul li a{
+	line-height: 1.5;
+}
+}*/
+
+/*@media screen and (max-width: 1118px){
+	.contacts{
+		display: none;
+	}
+
+	.information, .your_account, .social{
+	flex-basis: 33%;
+}
+}*/

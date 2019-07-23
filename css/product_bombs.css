@@ -1,0 +1,388 @@
+.product{
+	display: flex;
+	width: 70%;
+	/*height: 960px;*/
+	margin: 0 auto;
+	background: rgba(255, 255,255, 0.7);
+	justify-content: space-between;
+}
+
+.product_container{
+	display: flex;
+	flex-basis: 92%;
+	/*height: 875px;*/
+	margin: 43px auto;
+	justify-content: space-between;
+	border-bottom: 1px dotted #6E6F6D;
+}
+
+.product_left{
+	display: flex;
+	flex-basis: 74%;
+	flex-direction: column;
+}
+
+.product_left_topic{
+	display: flex;
+	flex-direction: column;
+	align-items: space-between;
+	border-bottom: 1px dotted #6E6F6D;
+}
+
+.navigation p:last-child{
+	border-right: none;
+}
+
+.product_left_topic p{
+	display: flex;
+	font: 1rem Arial;
+	color: #9AA678;
+	border-right: 1px solid #9AA678;
+	padding-right: 7px;
+	margin-right: 7px;
+}
+
+.product_left_topic p a{
+	font: 1rem Arial;
+	color: #9AA678;
+}
+
+.product_left_topic p a:hover{
+	font: 1rem Arial;
+	color: #9AA678;
+	text-decoration: underline;
+}
+
+.product_left_topic p:last-child{
+	border-right: none;
+	padding-right: 0;
+	margin-right: 0;
+}
+
+.name_price_product_topic{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+
+.product_left_topic h1{
+	font: 1.7143rem RalewaySemiBold;
+	color: #505050;
+	text-transform: uppercase;
+}
+
+.product_left_topic h1:last-child{
+	margin-left: 13%;
+	font-family: RalewaySemiBold;
+}
+
+.product_left_main{
+	display: flex;
+	justify-content: space-between;
+	/*height: 480px;*/
+	border-bottom: 1px dotted #6E6F6D;
+	padding: 20px 0;
+}
+
+.pictures{
+	display: flex;
+	flex-basis: 49%;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.main_img_product{
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.main_img_product img{
+	min-width: 100%;
+	max-width: 100%;
+	border: 2px solid #CED1D1;
+}
+
+.second_img_product{
+	display: flex;
+	justify-content: space-between;
+	/*position: relative;*/
+}
+
+.second_img{
+	height: 100%;
+	width: 48%;
+	display: flex;
+	position: relative;
+}
+
+.third_img{
+	height: 100%;
+	width: 48%;
+	display: flex;
+	position: relative;
+}
+
+.second_img img{
+	width: 100%;
+	height: 130px;
+	border: 1px solid #CED1D1;
+}
+
+.third_img img{
+	width: 100%;
+	height: 130px;
+	border: 1px solid #CED1D1;
+}
+
+.magnifier_first{
+	position: absolute;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+}
+
+.magnifier_first:hover{
+	background: rgba(255, 255, 255, 0.2);
+	opacity: 1;
+	cursor: pointer;
+}
+
+.magnifier_first img{
+	width: 30%;
+	height: 35%;
+	border: 1px solid transparent;
+}
+
+.magnifier_second{
+	position: absolute;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	float: right;
+	right: 0;
+}
+
+.magnifier_second:hover{
+	background: rgba(255, 255, 255, 0.2);
+	opacity: 1;
+	cursor: pointer;
+}
+
+.magnifier_second img{
+	width: 30%;
+	height: 35%;
+	border: 1px solid transparent;
+}
+
+.info{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 49%;
+}
+
+.info p{
+	font-family: Arial;
+	color: #505050;
+	font-weight: 600;
+}
+
+.info .more{
+	color: #617E20;
+	cursor: pointer;
+	margin-top: 22px;
+}
+
+.info button:hover{
+	background: #D0CAC0;
+	color: #242423;
+	cursor: pointer;
+	transform: scale(1.05);
+	box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.8);
+}
+
+.counts_price{
+	display: flex;
+	margin: 25px 0;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.plus_minus{
+	display: flex;
+}
+
+.plus_minus p{
+	display: flex;
+	align-items: center;
+}
+
+.counts_price button{
+	width: 20px;
+	font: 1.3rem Arial;
+	font-weight: bold;
+	margin: 0 10px;
+	border-radius: 3px;
+	border: 1px solid #8B8A83;
+	background: rgba(214, 203, 185, 0.5);
+	color: #505050;
+}
+
+.counts_price button:first-child{
+	margin-left: 0;
+}
+
+.counts_price span{
+	font: 1.2857rem RalewayBold;
+}
+
+.bye_buttons{
+	display: flex;
+	justify-content: space-between;
+}
+
+.bye_buttons button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	background: rgba(214, 203, 185, 0.5);
+	border: 1px solid #8B8A83;
+	border-radius: 3px;
+	font: 1rem RalewaySemiBold;
+	/*color: #393A39;*/
+	color: #505050;
+	padding: 0 3px;
+}
+
+.bye_buttons button{
+	margin-right: 5px;
+}
+
+.bye_buttons button img{
+	margin-right: 5px;
+}
+
+.addittion{
+	display: flex;
+	height: 275px;
+	flex-direction: column;
+}
+
+.addittion_topic{
+	display: flex;
+	height: 70px;
+	padding-top: 28px;
+}
+
+.addittion_topic h1{
+	font: 1.7143rem RalewayRegular;
+	color: #505050;
+	text-transform: uppercase;
+}
+
+.addittion_main{
+	display: flex;
+	flex-direction: column;
+}
+
+.tabs{
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.tab{
+	font-family: Arial;
+	color: #718245;
+	margin-right: 33px;
+}
+
+.tab:last-child{
+	margin-right: 0;
+}
+
+.tab:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.addittion_main p{
+	font-family: Arial;
+	color: #505050;
+	line-height: 1.5;
+}
+
+.product_right{
+	display: flex;
+	flex-basis: 24%;
+	flex-direction: column;
+}
+
+.product_right_topic{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding-top: 34px;
+	padding-bottom: 5%;
+}
+
+.product_right_topic h2{
+	font: 1.2857rem RalewayRegular;
+	color: #505050;
+	text-transform: uppercase;
+}
+
+.product_right_main{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.same_item{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	height: 215px;
+	justify-content: flex-start;
+	padding: 15px 0;
+	border-bottom: 1px dotted #6E6F6D;
+}
+
+.same_item:last-child{
+	border-bottom: none;
+}
+
+.same_item a{
+	display: flex;
+	flex-direction: column;
+	background: url('../images/BG.png');
+	/*opacity: 0.8;*/
+	/*background: #FFF;*/
+	height: 100%;
+	padding: 5px 5px 0;
+	border: 1px solid #9E9488;
+	border-radius: 5px;
+}
+
+.same_item_bg img{
+	height: 130px;
+	min-width: 100%;
+	max-width: 100%;
+	margin-bottom: 25px;
+}
+
+.name_price_product{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.name_price_product p{
+	font: 1.1429rem RalewaySemiBold;
+	color: #5C6E2A;
+}

@@ -1,0 +1,244 @@
+.order{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	/*height: 960px;*/
+	margin: 0 auto;
+	background: rgba(255, 255,255, 0.7);
+}
+
+.order_container{
+	display: flex;
+	width: 92%;
+	flex-direction: column;
+	align-items: space-between;
+	/*height: 875px;*/
+	margin: 43px auto;
+	border-bottom: 1px dotted #6E6F6D;
+}
+
+.order_main{
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	padding: 20px 0;
+}
+
+.order_main input[type="text"],
+.order_main input[type="email"]
+{
+	width: 300px;
+	height: 25px;
+	border: 1px solid #8B8A83;
+	font: 1.2rem Arial;
+	font-weight: bold;
+	background: rgba(214, 203, 185, 0.2);
+	border-radius: 3px;
+	margin-right: 40px;
+	color: #505050;
+}
+
+.order_main h2{
+	text-align: center;
+	font: 2.4rem RalewayMedium;
+	color: #505050;
+}
+
+.order_main p{
+	display: flex;
+	justify-content: center;
+	/*font-family: RalewayBold;*/
+	color: #505050;
+	margin: 15px 0;
+	color: #5A5A5A;
+}
+
+.red_star{
+	color: red;
+	font-size: 1.4rem;
+}
+
+.delivery_select{
+	display: flex;
+	flex-direction: column;
+}
+
+.radio_select{
+	font: 1.2rem RalewaySemiBold;
+}
+
+.delivery_radio{
+	display: flex;
+}
+
+.delivery_radio p{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-basis: 200px;
+	margin-right: 10px;
+	height: 50px;
+	border: 1px solid transparent;
+	font: 1.6rem RalewaySemiBold;
+}
+
+.delivery_radio p:hover{
+	/*border: 1px solid black;*/
+}
+
+
+.delivery_radio p input{
+	margin-right: 5px;
+	transform: scale(1.5);
+}
+
+.coming_shop{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.courier{
+	display: none;
+}
+
+.courier p{
+	margin: 15px 0;
+}
+
+.coming_shop{
+	display: none;	
+	text-align: center;
+}
+
+.send_by_post{
+	display: none;
+}
+
+.send_by_post p{
+	margin: 15px 0;
+}
+
+.coming_shop p{
+	font: 1.2rem RalewaySemiBold;
+}
+
+.coming_shop select{
+	width: 300px;
+	height: 30px;
+	font: 1.2rem RalewaySemiBold;
+	background: rgba(214, 203, 185, 0.4);
+	color: #505050;
+	border-radius: 3px;
+	margin: 15px 0;
+}
+
+.coming_shop select option{
+	background: rgba(214, 203, 185, 0.4);
+	color: #505050;
+}
+
+.pay_select{
+	display: flex;
+	flex-direction: column;
+}
+
+.pay_radio{
+	display: flex;
+}
+
+.pay_radio p{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-basis: 200px;
+	margin-right: 10px;
+	height: 50px;
+	border: 1px solid transparent;
+	font: 1.1rem RalewaySemiBold;
+}
+
+.pay_radio p:hover{
+	/*border: 1px solid black;*/
+}
+
+.pay_radio p input{
+	margin-right: 5px;
+	transform: scale(1.5);
+}
+
+.order_comment{
+	font: 1rem Arial;
+}
+
+.order_lines{
+	display: inline-flex;
+	width: 150px;
+	font: 1.2rem RalewaySemiBold;
+}
+
+.data_agree p label{
+	font: 1.2rem RalewaySemiBold;
+}
+
+.data_agree p input{
+	transform: scale(1.5);
+	margin-right: 7px;
+}
+
+.disabled_button{
+	opacity: 0.5;
+	height: 40px;
+	width: 100%;
+	font: 1rem RalewaySemiBold;
+	color: #505050;
+	background: rgba(214, 203, 185, 0.5);
+	border: 1px solid #8B8A83;
+	border-radius: 3px;
+	margin-right: 5px;
+}
+
+.not_disabled_button{
+	height: 40px;
+	width: 100%;
+	font: 1rem RalewaySemiBold;
+	color: #505050;
+	background: rgba(214, 203, 185, 0.5);
+	border: 1px solid #8B8A83;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-right: 5px;
+	box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.8);
+}
+
+.not_disabled_button:hover{
+	background: #D0CAC0;
+	color: #242423;
+	transform: scale(1.05);
+	/*box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.8);*/
+}
+
+.order_success{
+	display: none;
+	justify-content: center;
+	font: 1.6rem RalewaySemiBold;
+	color: #505050;
+	line-height: 2;
+}
+
+.order_success:first-of-type{
+	font-size: 2.8rem;
+}
+
+.order_success a{
+	display: none;
+	justify-content: center;
+	font: 1.6rem Arial;
+	color: #505050;
+	text-decoration: underline;
+	line-height: 2;
+}
+
+.order_success a:hover{
+	text-decoration: none;
+}

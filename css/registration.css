@@ -1,0 +1,144 @@
+.reg{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	margin: 0 auto;
+	background: rgba(255, 255,255, 0.7);
+}
+
+.reg_container{
+	display: flex;
+	width: 92%;
+	flex-direction: column;
+	align-items: space-between;
+	margin: 43px auto;
+	border-bottom: 1px dotted #6E6F6D;
+}
+
+.whole_reg{
+	display: flex;
+}
+
+.reg_form{
+	/*display: flex;*/
+	/*justify-content: center;*/
+	width: 70%;
+	/*background: red;*/
+	padding: 20px 0;
+}
+
+.reg_text p{
+	color: #5A5A5A;
+	font: 1.2rem RalewaySemiBold;
+	line-height: 1.7;
+	margin-bottom: 20px;
+}
+
+.reg_text a{
+	font: 1.3rem RalewaySemiBold;
+}
+
+.reg_text .neccessary{
+	display: flex;
+	justify-content: center;
+	font: 1.1rem RalewayMedium;
+	margin-bottom: 0;
+}
+
+.colortext{
+	color: #A6B95B;
+	margin-left: 5px;
+}
+
+.reg_lines{
+	display: inline-flex;
+	width: 100px;
+	font: 1.2rem RalewaySemiBold;
+	color: #505050;
+}
+
+.reg_fields_container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.reg_fields_container p{
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+}
+
+.reg_fields_container input{
+	width: 250px;
+	height: 25px;
+	border: 1px solid #8B8A83;
+	font: 1.2rem Arial;
+	font-weight: bold;
+	color: #505050;
+	background: rgba(214, 203, 185, 0.2);
+	border-radius: 3px;
+}
+
+.reg_form button{
+	width: 100%;
+	height: 35px;
+	font-family: RalewaySemiBold;
+	color: #505050;
+	background: rgba(214, 203, 185, 0.5);
+	border: 1px solid #8B8A83;
+	border-radius: 3px;
+	cursor: pointer;
+	margin: 20px 0 0;
+	font: 1.3rem RalewaySemiBold;
+}
+
+.reg_form button:hover{
+	background: #D0CAC0;
+	color: #242423;
+	/*transform: scale(1.05);*/
+	box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.8);
+}
+
+.reg_message{
+	display: flex;
+	justify-content: center;
+	flex-basis: 100%;
+}
+
+.reg_info{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 30%;
+}
+
+.reg_info p{
+	color: #5A5A5A;
+	font: 1.2rem RalewaySemiBold;
+	line-height: 1.7;
+	margin: 0px 0px 70px;
+	text-align: justify;
+	text-indent: 13px;
+	/*background: blue;*/
+}
+
+.reg_info_header{
+	color: #5A5A5A;
+	font: 1.25rem RalewayBold;
+	line-height: 1.7;
+	margin: 20px 10px;
+}
+
+.reg_message p{
+	text-align: center;
+	font: 1.3rem RalewayMedium;
+}
+
+.reg_error{
+	color: red;
+}
+
+.reg_success{
+	color: green;
+}
+

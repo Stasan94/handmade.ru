@@ -1,0 +1,122 @@
+.adminpanel{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 70%;
+	margin: 0 auto;
+	background: rgba(255, 255,255, 0.7);
+	padding: 15px 0 25px;
+}
+
+.adminpanel h2{
+	font: 2.2rem RalewaySemiBold;
+	color: #505050;
+	margin-bottom: 25px;
+}
+
+.out{
+	display: flex;
+}
+
+.admin_select_goods{
+	display: flex;
+	margin-left: 160px;
+	/*flex-direction: column;*/
+}
+
+.goods_out_bombs select, .goods_out_soap select, .goods_out_geyser select, option{
+	font: 1.2rem Arial;
+	width: 220px;
+	height: 30px;
+	font-weight: bold;
+	background: rgba(214, 203, 185, 0.6);
+	color: #505050;
+	border-radius: 3px;
+	margin-right: 40px;
+}
+
+.goods_out_bombs h3, .goods_out_soap h3, .goods_out_geyser h3{
+	font: 1.6rem RalewaySemiBold;
+	color: #505050;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+/*.adminpanel p{
+	display: flex;
+	font-family: Arial;
+	color: #505050;
+	margin: 15px 0;
+	font-weight: bold;
+	color: #5A5A5A;
+}*/
+
+.admin_form_line{
+	display: flex;
+	justify-content: center;
+	font-family: Arial;
+	color: #505050;
+	margin: 15px 0;
+	font-weight: bold;
+	color: #5A5A5A;
+}
+
+.good_names{
+	width: 150px;
+	font-size: 1.24rem;
+}
+
+.enter_line, .enter_field{
+	width: 220px;
+	border: 1px solid #8B8A83;
+	font: 1.2rem Arial;
+	background: rgba(214, 203, 185, 0.2);
+	border-radius: 3px;
+	margin-right: 40px;
+}
+
+.enter_line{
+	height: 25px;
+}
+
+.admin_buttons{
+	display: flex;
+	margin-left: 150px;
+}
+
+.admin_buttons_form{
+	margin-right: 40px;
+}
+
+.add_to_db_bombs, .add_to_db_soap, .add_to_db_geyser,
+.change_to_db_bombs, .change_to_db_soap, .change_to_db_geyser{
+	width: 70px;
+	height: 40px;
+	font: 1rem RalewaySemiBold;
+	color: #505050;
+	background: rgba(214, 203, 185, 0.5);
+	border: 1px solid #8B8A83;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-right: 5px;
+}
+
+.delete_from_db_bombs,
+.delete_from_db_soap,
+.delete_from_db_geyser{
+	width: 70px;
+	height: 40px;
+	font: 1rem RalewaySemiBold;
+	color: #505050;
+	background: rgba(214, 203, 185, 0.5);
+	border: 1px solid #8B8A83;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.add_to_db_bombs:hover, .change_to_db_bombs:hover, .delete_from_db_bombs:hover,
+.add_to_db_soap:hover, .change_to_db_soap:hover, .delete_from_db_soap:hover,
+.add_to_db_geyser:hover, .change_to_db_geyser:hover, .delete_from_db_geyser:hover{
+	background: #D0CAC0;
+	color: #242423;
+}

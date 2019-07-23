@@ -1,0 +1,146 @@
+.catalog{
+	display: flex;
+	width: 70%;
+	margin: 0 auto;
+	background: rgba(255, 255,255, 0.7);
+}
+
+.catalog_container{
+	display: flex;
+	flex-basis: 92%;
+	flex-direction: column;
+	margin: 43px auto;
+	border-bottom: 1px dotted #6E6F6D;
+}
+
+.catalog_topic{
+	display: flex;
+	flex-direction: column;
+	border-bottom: 1px dotted #6E6F6D;
+}
+
+.navigation{
+	display: flex;
+	margin-bottom: 36px;
+}
+
+.navigation p{
+	display: flex;
+	font: 1rem Arial;
+	color: #9AA678;
+	border-right: 1px solid #9AA678;
+	padding-right: 7px;
+	margin-right: 7px;
+}
+
+.navigation a{
+	color: #9AA678;
+}
+
+.navigation a:hover{
+	text-decoration: underline;
+}
+
+.category h1{
+	font: 1.7143rem RalewaySemiBold;
+	color: #505050;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.catalog_main{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.catalog-main::after{
+	content: "";
+	clear: both;
+	display: flex;
+}
+
+.goods{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 230px;
+	margin: 30px;
+	padding: 7px 7px 10px;
+	border: 1px solid #9E9488;
+	border-radius: 5px;
+	box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.8);
+	/*box-shadow: -3px -3px 10px 0px rgba(50, 50, 50, 0.8);*/
+	background: white;
+}
+
+.goods:hover{
+	/*box-shadow: none;*/
+	background: none;
+	transform: scale(1.15);
+	transition: ease 0.3s;
+}
+
+.goods img{
+	display: flex;
+	max-width: 100%;
+	min-width: 100%;
+}
+
+.goods p{
+	font: 1rem Arial;
+	color: #505050;
+	margin: 20px 0 40px;
+	line-height: 1.3;
+}
+
+.name_price_good{
+	display: flex;
+}
+
+.name_price_good h3{
+	font: 1.1rem RalewayBold;
+	/*text-transform: uppercase;*/
+}
+
+.buttons_container{
+	display: flex;
+}
+
+.buttons_container button{
+	height: 25px;
+	background: rgba(214, 203, 185, 0.5);
+	border: 1px solid #9E9486;
+	cursor: pointer;
+	border-radius: 2px;
+	font-family: RalewayRegular;
+	color: #393A39;
+}
+
+.buttons_container button:hover{
+	background: #D0CAC0;
+	color: #242423;
+	border-bottom: 2px solid #9E9486;
+	box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.8);
+}
+
+.delete_wish{
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	margin-top: 10px;
+	height: 25px;
+	width: 80%;
+	background: rgba(214, 203, 185, 0.5);
+	border: 1px solid #9E9486;
+	cursor: pointer;
+	border-radius: 2px;
+	font: 1.3rem RalewayRegular;
+	color: #393A39;
+}
+
+.delete_wish:hover{
+	background: #D0CAC0;
+	color: #242423;
+	border-bottom: 2px solid #9E9486;
+	box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.8);
+}
